@@ -1,0 +1,13 @@
+/* Remove botão Shorts da barra lateral */
+a[href="/shorts"],
+a[href^="/shorts/"] {
+    display: none !important;
+}
+
+/* Remove prateleiras e componentes de Shorts */
+ytd-rich-shelf-renderer,
+ytd-reel-shelf-renderer,
+ytd-shorts,
+ytm-shorts-lockup-view-model {
+    display: none !important;
+}
